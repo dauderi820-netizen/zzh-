@@ -25,6 +25,12 @@ yarn-error.log*
 *.class
 target/
 
+# ---- 密钥（永不入库） ----
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
 # ---- 临时 / 大文件（按需删掉某一行即可放开） ----
 *.log
 *.tmp
