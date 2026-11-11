@@ -1,0 +1,36 @@
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+~$*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---- Node ----
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-error.log*
+
+# ---- Java ----
+*.class
+target/
+
+# ---- 临时 / 大文件（按需删掉某一行即可放开） ----
+*.log
+*.tmp
+*.zip
+*.rar
+*.7z
+*.exe
+*.msi
+*.mp4
